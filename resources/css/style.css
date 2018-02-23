@@ -43,3 +43,23 @@ header img {
   padding-left: 10px;
   height: 50px;
 }
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+#mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 70px;
+  height: 700px;
+  width: 1200px;
+}
+
+#mission .copy {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
