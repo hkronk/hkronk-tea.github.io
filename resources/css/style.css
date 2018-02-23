@@ -63,3 +63,64 @@ header img {
   width: 100%;
   margin: auto;
 }
+
+#featured {
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  width: 300px;
+  height: 200px;
+  flex-wrap: wrap;
+  display: block;
+  margin: 10px
+}
+
+.item span {
+  padding: 10px;
+  display: block;
+}
+
+#Locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+#Locations .flex-container {
+  margin: auto;
+  width: 1100px;
+}
+
+#Locations h2 {
+  padding: 10px;
+}
+.location {
+  background-color: black;
+  width: 300px;
+  margin: 5px 20px;
+  padding: 15px;
+  display: flex;
+  flex-basis: 280px;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 1;
+}
+
+#contact {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
